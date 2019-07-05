@@ -1,0 +1,1 @@
+alert("Hello Javascript"); // 세미콜론은 있어도 되고 없어도 됨
