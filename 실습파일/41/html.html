@@ -1,0 +1,16 @@
+<html>
+	<head>
+		<meta charset = "utf-8">
+		<script>
+			var req = new XMLHttpRequest()
+			req.onreadystatechange = function a() {
+				console.log(this.readyState, this.status)
+			}
+			req.open("GET", "./data.txt")
+			req.send()
+		</script>
+	</head>
+	<body>
+		AJAX
+	</body>
+</html>
